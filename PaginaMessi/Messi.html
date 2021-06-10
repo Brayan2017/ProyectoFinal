@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Londrina+Solid:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+</head>
+<style>
+    @media screen and (max-width:800px) {
+        body{
+            background-color: rgb(255, 185, 127);
+            flex-direction: column;
+        }
+    }
+
+    @media screen and (max-width:400px) {
+        body{
+            background-color: rgb(236, 255, 127);
+            flex-direction: column;
+        }
+    }
+</style>
+<body>
+    <header class="Container-header">
+        
+        <lu class="List-Menu">Messi</lu>
+       
+    </header>
+    <nav>
+        <video class="video" src="Recursos/y2mate.com - Así fue el GOLAZO de Messi de tiro libre ante el Liverpool  Donde la metió_720p.mp4"
+        poster="Recursos/15555203973455.jpg" muted controls></video>
+    </nav>
+    <section class="section-container">
+        <article class="article-container">
+            <img class="imagen" src="Recursos/57911784-antecedentes-de-estadio-de-fútbol-estadio-de-fútbol-con-la-puerta-campo-de-fútbol-arena-del-fútbol-estadio-de-fútbol-vec.jpg" alt="aquí esta la imagen">
+            <div>
+                <p class="parrafo"><b>Apodado --> Messias</b><br>Considerado con frecuencia el mejor jugador del mundo y uno de los mejores de todos los tiempos,12​ es el único futbolista en la historia que ha ganado, entre otras distinciones, seis veces el Balón de Oro (dos Balones de Oro y cuatro FIFA Balones de Oro)</p>
+            </div>
+        </article>
+        <form class="formulario">
+            <h2 class="contacta">¡Registrate!</h2>
+            <input class="Campos" type="text" placeholder="Ingresa tu nombre" id="name">
+            <input class="Campos" type="email" placeholder="Ingresa tu correo" id="correo">
+            <input class="Campos" type="tel" placeholder="Ingresa tu número" id="numero">
+            <input type="submit" onclick = 'return enviarformulario();' value="Enviar">
+        </form>
+        <div id="error" style="text-align: center; font-size: 2rem;"></div>
+        <div></div>
+    </section>
+    <footer class="footer">
+        <h2 class="letra"> Derechos reservados</h2>
+    </footer>
+    <script src="js/formulario.js"></script>
+</body>
+</html>

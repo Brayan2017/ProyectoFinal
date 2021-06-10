@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    justify-content: center;
+    margin: 0 5rem;
+}
+
+.Container-header{
+    background-color: rgb(168, 166, 19);
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container-header .List-Menu{
+    color: white;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: 'Black Ops One', cursive;
+    padding: 0 4rem;
+    transition: 0.8s;
+}
+
+.Container-header .List-Menu:hover{
+    color: black;
+}
+
+.video{
+    width: 100%;
+}
+
+.article-container{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.article-container .imagen{
+    width: 30%;
+    border-radius: 100%;
+}
+
+.article-container .parrafo{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 3rem;
+    margin: 4rem;
+}
+
+.article-container .Conoce{
+    font-family: 'Black Ops One', cursive;
+    font-size: 3rem;
+    margin: 4rem;
+    background-color: rgb(168, 166, 19);
+    color: white;
+    width: 60%;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 40px;
+    transition: 0.6s;
+}
+
+.article-container .Conoce:hover{
+    background-color: black;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    flex-direction: column;
+}
+
+.formulario .contacta{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 7rem;
+}
+
+.formulario .Campos{
+    margin: 0.5rem;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 2rem;
+    width: 30%;
+    border: rgb(168, 166, 19);
+}
+
+.formulario .Enviar{
+    background-color: rgb(168, 166, 19);
+    font-family: 'Black Ops One', cursive;
+    font-size: 3rem;
+    color: white;
+    padding: 1rem;
+    border-radius: 40px;
+    margin: 0.5rem;
+    transition: 0.6s;
+}
+
+.formulario .Enviar:hover{
+    background-color: black;
+}
+
+footer{
+    background-color: rgb(168, 166, 19);
+    width: 100%;
+    height: 6rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer .letra{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}

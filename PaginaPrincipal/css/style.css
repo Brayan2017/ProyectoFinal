@@ -1,0 +1,94 @@
+
+*{  
+    padding: 0;
+    margin: 2rem;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.section-container{
+    width: 100%;
+    background-color:rgb(12, 1, 1) ;
+    padding: 2rem 1rem ;
+}
+
+.section-container .box-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-container .box-container .main-title{
+    width: 100%;
+    color: rgb(247, 242, 242);
+    font-size: 45px;
+    margin-bottom: 2rem;
+    font-weight: 300;
+}
+
+.section-container .box-container .box-module{
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+}
+
+.section-container .box-container .box-module .box{
+    width: 22.5%;
+    padding: 1rem;
+    background-color: rgb(100, 228, 237);
+    border-radius: 10px ;
+    transition: 0.8s ease-in-out;
+    height: 20rem;
+
+}
+
+
+.section-container .box-container .box-module .box:nth-of-type(2){
+    background-color: rgb(200, 220, 20);
+    transition: 0.8s ease-in-out;
+   
+}
+
+.section-container .box-container .box-module .box:nth-of-type(3){
+    background-color: rgb(100, 228, 237);
+    transition: 0.8s ease-in-out;
+   
+}
+
+.section-container .box-container .box-module .box:nth-of-type(4){
+    background-color: rgb(200, 220, 20);
+    transition: 0.8s ease-in;
+   
+}
+
+.section-container .box-container .box-module .box:nth-of-type(1):hover{
+    background: black;
+    color: white;
+}
+.section-container .box-container .box-module .box:nth-of-type(2):hover{
+    background: black;
+    color: white;
+}
+.section-container .box-container .box-module .box:nth-of-type(3):hover{
+    background: black;
+    color: white;
+}
+.section-container .box-container .box-module .box:nth-of-type(4):hover{
+    background: black;
+    color: white;
+}
+
+
+
+
+
